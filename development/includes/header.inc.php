@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-	<img src="images/logo.png" alt="LULAC Logo">
+	<a href="index.php"><img src="images/logo.png" alt="LULAC Logo"></a>
 		<div class="heading-wrapper">
 			<h1>League of United Latin American Citizens</h1>
 			<h2>Southwest Washington Council #47013</h2>
@@ -17,3 +17,6 @@
 	</header>
 
 <div class="content">
+<?php
+if (isset($page_heading))	echo "<h2>{$page_heading}</h2>";
+ ?>

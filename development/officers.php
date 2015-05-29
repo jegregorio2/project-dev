@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<!-- Page: officers.php -->
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>LULAC Council 47013 Officers</title>
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+<?php 
+$page_title = "Officers";
+$page_heading = "Officers";
+require_once "includes/header.inc.php";
+ ?>
 	
-</body>
-</html>
+ <?php require_once "includes/footer.inc.php"; ?>

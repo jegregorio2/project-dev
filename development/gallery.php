@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<!-- Page: gallery.php -->
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>LULAC Council 47013 Gallery</title>
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+<?php 
+$page_title = "Gallery";
+$page_heading = "Gallery";
+require_once "includes/header.inc.php";
+ ?>
 	
-</body>
-</html>
+ <?php require_once "includes/footer.inc.php"; ?>

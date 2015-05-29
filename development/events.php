@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<!-- Page: events.php -->
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>LULAC Council 47013 Events</title>
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+<?php 
+$page_title = "Events";
+$page_heading = "Events";
+require_once "includes/header.inc.php";
+ ?>
 	
-</body>
-</html>
+ <?php require_once "includes/footer.inc.php"; ?>

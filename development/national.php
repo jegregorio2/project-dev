@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<!-- Page: national.php -->
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>LULAC Council 47013 National</title>
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+<?php 
+$page_title = "National";
+$page_heading = "National";
+require_once "includes/header.inc.php";
+ ?>
 	
-</body>
-</html>
+ <?php require_once "includes/footer.inc.php"; ?>

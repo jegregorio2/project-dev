@@ -2,6 +2,9 @@
 
 $red: #790000;
 $blue: #31106D;
+$serif: "Source Serif Pro";
+$sans: "Source Sans Pro";
+$raleway: "Raleway";
 
 *, *:before, *:after {
 	box-sizing: border-box;
@@ -13,16 +16,16 @@ html {
 
 body {
 	margin: 0;
-	font-family: "Raleway";
+	font-family: $raleway;
 }
 
-h2 {
-	font-family: "Source Serif Pro";
+h3 {
+	font-family: $serif;
 }
 
 nav {
 	background: $red;
-	font-family: "Source Sans Pro";
+	font-family: $sans;
 	font-size: 1em;
 
 	ul {
@@ -53,11 +56,11 @@ header {
 	text-align: center;
 
 	h1 {
-		font-family: "Source Serif Pro";
+		font-family: $serif;
 	}
 
 	h2 {
-		font-family: "Source Sans Pro";
+		font-family: $sans;
 		font-style: italic;
 	}
 
@@ -92,6 +95,13 @@ header {
 } //end header
 
 .content {
+	h2 {
+		font-family: $serif;
+		color: $blue;
+		text-align: center;
+		font-size: 2em;
+		text-transform: uppercase;
+	}
 	padding: 5px;
 	width: 100%;
 	// max-width: 1000px;
@@ -129,10 +139,29 @@ header {
 		}
 	} //end .thirty-sixty-container
 
-	.clearFix {
-		clear: both;
-	}
 } //end .content
+
+.clearFix {
+	clear: both;
+}
+
+.partners {
+	width: 90%;
+	margin: 0 auto;
+	font-family: $sans;
+
+	a {
+		color: #000;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 1.4em;
+	}
+
+	li {
+		margin-bottom: 1em;
+		list-style-image: url("../images/li_placeholder.jpg");
+	}
+} //end partners
 
 footer {
 	clear: both;

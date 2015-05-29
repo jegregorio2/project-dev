@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: "Raleway"; }
 
-h2 {
+h3 {
   font-family: "Source Serif Pro"; }
 
 nav {
@@ -56,6 +56,12 @@ header {
 .content {
   padding: 5px;
   width: 100%; }
+  .content h2 {
+    font-family: "Source Serif Pro";
+    color: #31106D;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase; }
   .content section {
     padding: 15px; }
   .content .three-col-container {
@@ -71,8 +77,22 @@ header {
     width: 64%;
     background: #790000;
     height: 14em; }
-  .content .clearFix {
-    clear: both; }
+
+.clearFix {
+  clear: both; }
+
+.partners {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Source Sans Pro"; }
+  .partners a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em; }
+  .partners li {
+    margin-bottom: 1em;
+    list-style-image: url("../images/li_placeholder.jpg"); }
 
 footer {
   clear: both;
