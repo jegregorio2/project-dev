@@ -1,32 +1,8 @@
-<!DOCTYPE html>
+<?php 
+$page_title = "LULAC Council 47013";
+require_once "includes/header.inc.php";
+ ?>
 <!-- Page: index.php -->
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>LULAC Council 47013</title>
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-	<header>
-	<!-- Position logo absolute so it can hang over the nav -->
-	<img src="images/logo.png" alt="LULAC Logo">
-		<div class="heading-wrapper">
-			<h1>League of United Latin American Citizens</h1>
-			<h2>Southwest Washington Council #47013</h2>
-		</div>
-	<nav>
-		<a href="#" class="menuIcon">Menu</a>
-		<ul>
-			<li><a href="national.php">National</a></li>
-			<li><a href="officers.php">Officers</a></li>
-			<li><a href="youth.php">Youth</a></li>
-			<li><a href="partners.php">Partners</a></li>
-			<li><a href="events.php">Events</a></li>
-		</ul>
-	</nav>
-	</header>
-
-<div class="content">
 	<!-- Three columns -->
 	<div class="three-col-container">
 		<section class="three-col">
@@ -50,22 +26,6 @@
 		</section>
 		<section class="sixty">...&gt;</section>
 	</div>
-	<div class="clearFix">
-		
-	</div>
-</div>
+	<div class="clearFix"></div>
 
-<footer>
-	<nav>
-		<ul>
-			<li><a href="national.php">National</a></li>
-			<li><a href="officers.php">Officers</a></li>
-			<li><a href="youth.php">Youth</a></li>
-			<li><a href="partners.php">Partners</a></li>
-			<li><a href="events.php">Events</a></li>
-		</ul>
-	</nav>
-</footer>
-
-</body>
-</html>
+<?php require_once "includes/footer.inc.php"; ?>
