@@ -93,7 +93,10 @@ header {
 
 .content {
 	padding: 5px;
-	clear: both;
+	width: 100%;
+	// max-width: 1000px;
+	// margin: 0 auto;
+	// border: 1px solid blue;
 
 	section {
 		padding: 15px;
@@ -101,11 +104,14 @@ header {
 
 	.three-col-container {
 		clear: both;
+		// width: 90%;
+		// margin: 0 auto;
 
 		section {
 			float: left;
 			width: 33%;
 		}
+
 	} //end .three-col-container
 
 	.thirty-sixty-container {
@@ -122,6 +128,10 @@ header {
 			height: 14em;
 		}
 	} //end .thirty-sixty-container
+
+	.clearFix {
+		clear: both;
+	}
 } //end .content
 
 footer {

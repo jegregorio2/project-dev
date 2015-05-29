@@ -55,7 +55,7 @@ header {
 
 .content {
   padding: 5px;
-  clear: both; }
+  width: 100%; }
   .content section {
     padding: 15px; }
   .content .three-col-container {
@@ -71,6 +71,8 @@ header {
     width: 64%;
     background: #790000;
     height: 14em; }
+  .content .clearFix {
+    clear: both; }
 
 footer {
   clear: both;

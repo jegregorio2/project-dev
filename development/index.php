@@ -50,6 +50,9 @@
 		</section>
 		<section class="sixty">...&gt;</section>
 	</div>
+	<div class="clearFix">
+		
+	</div>
 </div>
 
 <footer>
