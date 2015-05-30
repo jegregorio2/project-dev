@@ -157,10 +157,6 @@ header {
 			float: left;
 		}
 
-		p {
-			font-family: $serif;
-		}
-
 	} //end .fifty-fifty-container
 
 } //end .content
@@ -193,7 +189,6 @@ header {
 	margin: 0 auto;
 
 	p {
-		font-family: $serif;
 		font-weight: bold;
 		font-size: 1.3em;
 		margin-top: 0;
@@ -201,10 +196,6 @@ header {
 }
 
 .youth {
-
-	p {
-		font-family: $serif;
-	}
 
 	.thirty-sixty-container {
 		width: 100%;
@@ -223,6 +214,42 @@ header {
 		img:last-of-type {
 			width: 60%;
 		}
+	}
+}
+
+.three-pic-row, .four-pic-row {
+	clear: both;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.three-pic-row {
+	width: 75%;
+}
+
+.three-pic-row figure, .four-pic-row figure {
+	float: left;
+}
+
+.three-pic-row figure {
+	width: 20%;
+}
+
+.four-pic-row figure {
+	width: 15%;
+}
+
+.gallery {
+	width: 50%;
+	float: left;
+	text-align: center;
+
+	h3 {
+		font-size: 1.7em;
+	}
+
+	img {
+		width: 90%;
 	}
 }
 
