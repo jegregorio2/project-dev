@@ -140,6 +140,29 @@ header {
 		}
 	} //end .thirty-sixty-container
 
+	.fifty-fifty-container {
+		margin-bottom: 30px;
+		clear: both;
+
+		section {
+			width: 50%;
+			float: left;
+		}
+
+		img {
+			width: 35%;
+			max-height: 200px;
+			margin: 20px;
+			margin-top: 0;
+			float: left;
+		}
+
+		p {
+			font-family: $serif;
+		}
+
+	} //end .fifty-fifty-container
+
 } //end .content
 
 .clearFix {

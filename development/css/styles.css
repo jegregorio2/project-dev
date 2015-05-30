@@ -80,6 +80,20 @@ header {
     width: 64%;
     background: #790000;
     height: 14em; }
+  .content .fifty-fifty-container {
+    margin-bottom: 30px;
+    clear: both; }
+    .content .fifty-fifty-container section {
+      width: 50%;
+      float: left; }
+    .content .fifty-fifty-container img {
+      width: 35%;
+      max-height: 200px;
+      margin: 20px;
+      margin-top: 0;
+      float: left; }
+    .content .fifty-fifty-container p {
+      font-family: "Source Serif Pro"; }
 
 .clearFix {
   clear: both; }
