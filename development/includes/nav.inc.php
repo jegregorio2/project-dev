@@ -1,6 +1,6 @@
 <!-- Nav include -->
 <nav>
-	<a href="#" class="menuIcon">Menu</a>
+	<a href="#" class="menuIcon"><i class="fa fa-bars"></i></a>
 	<ul>
 		<li><a href="national.php">National</a></li>
 		<li><a href="officers.php">Officers</a></li>

@@ -52,6 +52,52 @@ header {
     color: #31106D; }
   header nav .menuIcon {
     display: none; }
+  @media (max-width: 700px) {
+    header nav {
+      padding: 5px;
+      padding-bottom: 0; }
+      header nav .menuIcon {
+        display: block;
+        font-size: 1.3em;
+        padding-bottom: 5px; }
+      header nav ul {
+        display: none;
+        padding-left: 0;
+        padding-bottom: 0; }
+        header nav ul li {
+          display: block;
+          width: 100%;
+          text-align: center;
+          padding-top: 5px;
+          border-bottom: 1px solid #FFF; }
+        header nav ul li:first-of-type {
+          padding-top: 0; } }
+  @media (max-width: 700px) {
+    header {
+      padding-top: 60px;
+      font-size: 1em; }
+      header h1 {
+        margin-bottom: 0; }
+      header h2 {
+        margin-top: 5px; }
+      header img {
+        height: 10em; }
+      header nav:hover ul {
+        display: block; } }
+
+.social {
+  float: right;
+  margin-left: 1em; }
+  .social i {
+    width: 100%;
+    font-size: 2.5em; }
+  .social .fa-facebook-square {
+    color: #3b5998; }
+  .social .fa-twitter-square {
+    color: #55acee; }
+  @media (max-width: 650px) {
+    .social i {
+      font-size: 2em; } }
 
 .content {
   padding: 5px;
@@ -72,6 +118,11 @@ header {
     .content .three-col-container section {
       float: left;
       width: 33%; }
+    @media (max-width: 650px) {
+      .content .three-col-container section {
+        width: 100%; }
+      .content .three-col-container img {
+        width: 100%; } }
   .content .thirty-sixty-container section {
     float: left; }
   .content .thirty-sixty-container section:first-of-type {
@@ -80,6 +131,9 @@ header {
     width: 64%;
     background: #790000;
     height: 14em; }
+  @media (max-width: 650px) {
+    .content .thirty-sixty-container section:first-of-type, .content .thirty-sixty-container section:last-of-type {
+      width: 100%; } }
   .content .fifty-fifty-container {
     margin-bottom: 30px;
     clear: both; }
@@ -92,6 +146,11 @@ header {
       margin: 20px;
       margin-top: 0;
       float: left; }
+    @media (max-width: 650px) {
+      .content .fifty-fifty-container section {
+        width: 100%; }
+      .content .fifty-fifty-container img {
+        width: 100%; } }
 
 .clearFix {
   clear: both; }
@@ -108,6 +167,10 @@ header {
   .partners li {
     margin-bottom: 1em;
     list-style-image: url("../images/li_placeholder.jpg"); }
+  @media (max-width: 650px) {
+    .partners li {
+      list-style-type: none;
+      list-style-image: none; } }
 
 .events {
   width: 80%;
@@ -117,6 +180,12 @@ header {
     font-weight: bold;
     font-size: 1.3em;
     margin-top: 0; }
+  @media (max-width: 650px) {
+    .events {
+      width: 100%;
+      max-width: 500px; }
+      .events iframe {
+        width: 100%; } }
 
 .youth .thirty-sixty-container {
   width: 100%;
@@ -129,23 +198,34 @@ header {
     width: 30%; }
   .youth .thirty-sixty-container img:last-of-type {
     width: 60%; }
+  @media (max-width: 650px) {
+    .youth .thirty-sixty-container img:first-of-type, .youth .thirty-sixty-container img:last-of-type {
+      width: 100%; } }
 
 .three-pic-row, .four-pic-row {
   clear: both;
   width: 90%;
   margin: 0 auto; }
-
-.three-pic-row {
-  width: 75%; }
-
-.three-pic-row figure, .four-pic-row figure {
-  float: left; }
+  .three-pic-row figure, .four-pic-row figure {
+    float: left; }
+  .three-pic-row img, .four-pic-row img {
+    width: 100%; }
+  .three-pic-row figcaption, .four-pic-row figcaption {
+    width: 100%;
+    clear: both; }
 
 .three-pic-row figure {
   width: 20%; }
+@media (max-width: 650px) {
+  .three-pic-row figure {
+    width: 60%;
+    clear: both; } }
 
 .four-pic-row figure {
   width: 15%; }
+  @media (max-width: 650px) {
+    .four-pic-row figure {
+      width: 60%; } }
 
 .gallery {
   width: 50%;
@@ -155,6 +235,9 @@ header {
     font-size: 1.7em; }
   .gallery img {
     width: 90%; }
+  @media (max-width: 650px) {
+    .gallery {
+      width: 100%; } }
 
 footer {
   clear: both;
