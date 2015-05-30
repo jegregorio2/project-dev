@@ -55,7 +55,9 @@ header {
 
 .content {
   padding: 5px;
-  width: 100%; }
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto; }
   .content h2 {
     font-family: "Source Serif Pro";
     color: #31106D;
@@ -63,7 +65,8 @@ header {
     font-size: 2em;
     text-transform: uppercase; }
   .content section {
-    padding: 15px; }
+    padding: 15px;
+    padding-top: 0; }
   .content .three-col-container {
     clear: both; }
     .content .three-col-container section {
@@ -103,6 +106,20 @@ header {
     font-weight: bold;
     font-size: 1.3em;
     margin-top: 0; }
+
+.youth p {
+  font-family: "Source Serif Pro"; }
+.youth .thirty-sixty-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto; }
+  .youth .thirty-sixty-container img {
+    float: left;
+    margin: 20px; }
+  .youth .thirty-sixty-container img:first-of-type {
+    width: 30%; }
+  .youth .thirty-sixty-container img:last-of-type {
+    width: 60%; }
 
 footer {
   clear: both;

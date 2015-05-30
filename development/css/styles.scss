@@ -103,13 +103,14 @@ header {
 		text-transform: uppercase;
 	}
 	padding: 5px;
-	width: 100%;
-	// max-width: 1000px;
-	// margin: 0 auto;
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
 	// border: 1px solid blue;
 
 	section {
 		padding: 15px;
+		padding-top: 0;
 	}
 
 	.three-col-container {
@@ -173,6 +174,32 @@ header {
 		font-weight: bold;
 		font-size: 1.3em;
 		margin-top: 0;
+	}
+}
+
+.youth {
+
+	p {
+		font-family: $serif;
+	}
+
+	.thirty-sixty-container {
+		width: 100%;
+		max-width: 960px;
+		margin: 0 auto;
+
+		img {
+			float: left;
+			margin: 20px;
+		}
+
+		img:first-of-type {
+			width: 30%;
+		}
+
+		img:last-of-type {
+			width: 60%;
+		}
 	}
 }
 
