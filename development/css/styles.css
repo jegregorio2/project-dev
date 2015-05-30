@@ -59,6 +59,8 @@ header {
       header nav .menuIcon {
         display: block;
         font-size: 1.3em;
+        width: 1.3em;
+        margin-left: calc(100% - 1.5em);
         padding-bottom: 5px; }
       header nav ul {
         display: none;
