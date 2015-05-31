@@ -179,7 +179,6 @@ header {
   max-width: 800px;
   margin: 0 auto; }
   .events p {
-    font-weight: bold;
     font-size: 1.3em;
     margin-top: 0; }
   @media (max-width: 650px) {
