@@ -1,6 +1,7 @@
 <?php 
 $page_title = "LULAC Council 47013";
 require_once "includes/header.inc.php";
+//test
  ?>
 <!-- Page: index.php -->
 	<!-- Three columns -->
