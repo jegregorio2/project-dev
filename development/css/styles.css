@@ -205,27 +205,27 @@ header {
 
 .three-pic-row, .four-pic-row {
   clear: both;
-  width: 95%;
+  width: 90%;
   margin: 0 auto; }
   .three-pic-row figure, .four-pic-row figure {
-    float: left; }
+    float: left;
+    margin: 10px; }
   .three-pic-row img, .four-pic-row img {
     width: 100%; }
   .three-pic-row figcaption, .four-pic-row figcaption {
     width: 100%;
     clear: both; }
 
-.three-pic-row {
-  width: 75%; }
+.three-pic-row figure {
+  width: 20%;
+  margin: 10px calc((20% + 20px) / 6 + 10px); }
+@media (max-width: 650px) {
   .three-pic-row figure {
-    width: 20%; }
-  @media (max-width: 650px) {
-    .three-pic-row figure {
-      width: 60%;
-      clear: both; } }
+    width: 60%;
+    clear: both; } }
 
 .four-pic-row figure {
-  width: 15%; }
+  width: 20%; }
   @media (max-width: 650px) {
     .four-pic-row figure {
       width: 60%; } }

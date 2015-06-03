@@ -350,11 +350,12 @@ header {
 
 .three-pic-row, .four-pic-row {
 	clear: both;
-	width: 95%;
+	width: 90%;
 	margin: 0 auto;
 
 	figure {
 		float: left;
+		margin: 10px;
 	}
 
 	img {
@@ -368,9 +369,10 @@ header {
 }
 
 .three-pic-row {
-	width: 75%;
+
 	figure {
 		width: 20%;
+		margin: 10px calc((20% + 20px) / 6 + 10px);
 	}
 
 	@media(max-width: 650px) {
@@ -382,7 +384,7 @@ header {
 }
 
 .four-pic-row figure {
-	width: 15%;
+	width: 20%;
 
 	@media(max-width: 650px) {
 			width: 60%;
