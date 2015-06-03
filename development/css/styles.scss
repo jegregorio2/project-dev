@@ -47,12 +47,12 @@ nav {
 } //end nav
 
 header {
-	background-image: url("../images/flag.jpg");
+	background-image: url("../images/flaga.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	font-size: 1.2em;
 	color: $blue;
-	padding-top: 100px;
+	padding-top: 80px;
 	text-align: center;
 
 	h1 {
@@ -77,6 +77,10 @@ header {
 				padding: 10px;
 				width: 10%;
 			}
+
+			li:hover {
+				background: rgba(121, 0, 0, 0.7);
+			}
 		}
 
 		a {
@@ -85,7 +89,7 @@ header {
 		}
 
 		a:hover {
-			color: $blue;
+			// color: $blue;
 		}
 
 		.menuIcon {
@@ -329,11 +333,11 @@ header {
 		}
 
 		img:first-of-type {
-			width: 30%;
+			width: calc(30% - 20px);
 		}
 
 		img:last-of-type {
-			width: 60%;
+			width: calc(60% - 20px);
 		}
 
 		@media(max-width: 650px) {
@@ -346,7 +350,7 @@ header {
 
 .three-pic-row, .four-pic-row {
 	clear: both;
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
 
 	figure {
@@ -364,6 +368,7 @@ header {
 }
 
 .three-pic-row {
+	width: 75%;
 	figure {
 		width: 20%;
 	}
@@ -415,10 +420,14 @@ footer {
 		margin: 0 auto;
 		text-align: center;
 
+		.menuIcon {
+			display: none;
+		}
+
 			ul {
 				padding-left: 0;
 			li {
-				width: 19%;
+				width: 15%;
 				margin: 0 auto;
 				margin-left: 0;
 				padding-left: 0;

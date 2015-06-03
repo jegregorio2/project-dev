@@ -27,12 +27,12 @@ nav {
     color: #31106D; }
 
 header {
-  background-image: url("../images/flag.jpg");
+  background-image: url("../images/flaga.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   font-size: 1.2em;
   color: #31106D;
-  padding-top: 100px;
+  padding-top: 80px;
   text-align: center; }
   header h1 {
     font-family: "Source Serif Pro"; }
@@ -45,11 +45,11 @@ header {
   header nav ul li {
     padding: 10px;
     width: 10%; }
+  header nav ul li:hover {
+    background: rgba(121, 0, 0, 0.7); }
   header nav a {
     color: #FFF;
     text-decoration: none; }
-  header nav a:hover {
-    color: #31106D; }
   header nav .menuIcon {
     display: none; }
   @media (max-width: 700px) {
@@ -196,16 +196,16 @@ header {
     float: left;
     margin: 20px; }
   .youth .thirty-sixty-container img:first-of-type {
-    width: 30%; }
+    width: calc(30% - 20px); }
   .youth .thirty-sixty-container img:last-of-type {
-    width: 60%; }
+    width: calc(60% - 20px); }
   @media (max-width: 650px) {
     .youth .thirty-sixty-container img:first-of-type, .youth .thirty-sixty-container img:last-of-type {
       width: 100%; } }
 
 .three-pic-row, .four-pic-row {
   clear: both;
-  width: 90%;
+  width: 95%;
   margin: 0 auto; }
   .three-pic-row figure, .four-pic-row figure {
     float: left; }
@@ -215,12 +215,14 @@ header {
     width: 100%;
     clear: both; }
 
-.three-pic-row figure {
-  width: 20%; }
-@media (max-width: 650px) {
+.three-pic-row {
+  width: 75%; }
   .three-pic-row figure {
-    width: 60%;
-    clear: both; } }
+    width: 20%; }
+  @media (max-width: 650px) {
+    .three-pic-row figure {
+      width: 60%;
+      clear: both; } }
 
 .four-pic-row figure {
   width: 15%; }
@@ -250,10 +252,12 @@ footer {
     width: 100%;
     margin: 0 auto;
     text-align: center; }
+    footer nav .menuIcon {
+      display: none; }
     footer nav ul {
       padding-left: 0; }
       footer nav ul li {
-        width: 19%;
+        width: 15%;
         margin: 0 auto;
         margin-left: 0;
         padding-left: 0; }
